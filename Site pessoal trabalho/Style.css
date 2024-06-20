@@ -1,0 +1,143 @@
+body{
+    height: 100vh;
+    background-color: #ffff;
+    
+  }
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #010508;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;  
+}
+
+/* HEADER */ 
+
+header {
+    position: relative;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    margin: 0 auto
+}
+
+.logo{
+    font-size: 42px;
+    font-weight: bold;
+    color: #010508;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 2rem;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.subtitulo{ 
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.perfil{
+    display: flex;
+    justify-content: baseline;
+
+}
+
+.tituloperfil{
+    font-size: 21px;
+    margin-top: 30px;
+}
+
+.descricaoperfil{
+    font-size: 21px;
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+
+.title{
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.repo{
+    display: flex;
+    width: 80%;
+    gap: 40px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card-title{
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-title:hover{
+    color: orange; 
+}
+
+.card-text{
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.iconbt{
+    text-decoration: none;
+}
+
+.iconbt:hover{
+    color: orange;
+}
+
+.carousel-item{
+    width: 800px;
+  height: 400px;
+}
+
+.card{
+    display: flex;
+
+    height: 100%;
+    padding: 12px;
+    text-align: center;
+
+    box-shadow: 0 4px 8px rgba(14, 13, 26, 0.37);
+
+}
+
+.content-friends {
+    display: flex; 
+    gap: 24px; 
+    
+}
+
+@media (max-width: 900px){
+    .perfil{
+        flex-direction: column;
+    }
+
+    .content-friends {
+        justify-content: center;
+    }
+
+}
